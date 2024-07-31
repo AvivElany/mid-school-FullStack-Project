@@ -1,0 +1,50 @@
+.CreateNews button {
+    margin: 10px;
+    padding: 6px;
+    margin: auto;
+    background-color: rgb(13, 114, 230);
+    border-radius: 5px;
+    border: none;
+    color: white;
+
+    &:hover {
+        box-shadow: rgb(153, 153, 153) 0px 0px 3px 3px;
+    }
+}
+
+@media (min-width: 901px) {
+
+    .CreateNews .formContainer {
+        width: 850px;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid gray;
+        padding: 10px;
+        margin-top: 50px;
+    }
+
+    .CreateNews label {
+        width: 150px;
+        text-align: left;
+    }
+
+
+    .CreateNews input {
+        margin: 10px;
+    }
+}
+
+@media (max-width: 900px) {
+
+    .CreateNews label {
+        margin: 5px;
+    }
+
+    .CreateNews input {
+        margin: 5px;
+    }
+
+    .CreateNews button {
+        margin: 10px;
+    }
+}

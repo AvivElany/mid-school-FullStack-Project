@@ -1,0 +1,22 @@
+.About {
+    margin: 0 auto;
+    padding: 15px;
+    width: 80%;
+}
+
+.aboutContainer {
+    display: flex;
+}
+
+.aboutImage img{
+    height: 650px;
+}
+
+.aboutText{
+    margin: 100px;
+
+}
+
+.aboutText p{
+
+}

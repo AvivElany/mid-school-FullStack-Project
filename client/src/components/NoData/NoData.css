@@ -1,0 +1,7 @@
+.NoData {
+    color: red;
+}
+
+.NoData:hover {
+    text-decoration: line-through;
+}

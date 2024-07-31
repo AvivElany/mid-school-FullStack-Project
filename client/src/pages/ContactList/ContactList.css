@@ -1,0 +1,28 @@
+.ContactList {
+    width: 95vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .contactContainer {
+    width: 80vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.singleMessage {
+    width: 50vw;
+}
+
+.messageHeader {
+    display: flex;
+    text-align: end;
+}
+
+.messagesFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

@@ -1,0 +1,10 @@
+.updateForm {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 10px;
+}
+
+.labelSide {
+    line-height: 1.7;
+}

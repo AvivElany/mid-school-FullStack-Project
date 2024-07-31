@@ -1,0 +1,43 @@
+.UserDetails {
+
+    .contactDetail, .contactTitle {
+        line-height: 1.5;
+    }
+
+    .contactDetail {
+        text-align-last: left;
+    }
+
+    .contactTitle {
+        text-align: right;
+    }
+    .gradeChartdiploma, .userContact {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .GradeChartCard {
+        width: 500px;
+        border: 3px solid #000;
+        border-radius: 20px;
+        background-color: rgba(256, 256, 256, 0.6);
+        padding: 15px;
+    }
+    
+    .gradeChartSubject{
+        line-height: 2;
+        text-align-last: right;
+    }
+    
+    .gradeChartGrade {
+        line-height: 2;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    
+    .gradeChartTitle {
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        margin-top: 25px;
+    }
+}

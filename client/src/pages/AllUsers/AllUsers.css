@@ -1,0 +1,67 @@
+.AllUsers * {
+    color: black;
+    font-size: 16px;
+    margin: 0 auto;
+}
+
+.AllUsers {
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.AllUsers table {
+    border: 1px solid #000;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width:auto;
+    table-layout: fixed;
+}
+
+.AllUsers table thead tr th {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.AllUsers th {
+    border-bottom: 1px solid black;
+    background-color: #42c5c5;
+    padding: 20px 15px;
+    text-align: left;
+    font-weight: bold;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.AllUsers td {
+    padding: 15px;
+    text-align: center;
+    color: #000;
+}
+
+.AllUsers tr:nth-child(even) {
+    background-color: rgb(182, 210, 233);
+}
+
+.AllUsers tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+.AllUsers tr:hover {
+    background-color: #ccc;
+}
+
+.AllUsers .icon, .AllUsers .profilImage {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+} 
+.AllUsers .smaller {
+    width: 50px;
+}
+
+.AllUsers .widther {
+    width: 170px;
+}
