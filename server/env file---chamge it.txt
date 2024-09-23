@@ -1,0 +1,11 @@
+PORT = 3000
+DEVELOPER = 'Aviv Elany'
+MENTOR = 'Elran Amrussi'
+
+JWT_SECRET = "iLoveIsrael123!@#"
+JWT_EXPIRES_IN = "15m"
+
+# collection name is: school Management ==> here we can change it  
+
+MONGODB_URI_DEV = "mongodb://localhost:27017/schoolManagement"
+MONGODB_URI_PROD = "mongodb://localhost:27017/schoolManagement_production"

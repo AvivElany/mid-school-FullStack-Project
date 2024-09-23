@@ -1,0 +1,13 @@
+הערות מרצה:
+ תאריך: 16.08.24 שעה: 10:00 Student: אביב אילני Frontend: React.js Backend: Node.js Db: mongoose כיתה: W270323ER https://github.com/AvivElany/mid-school-FullStack-Project צד שרת: - שימוש ב
+ 
+  express - שימוש ב Mongoose - שימוש ב cors - שימוש ב logger with morgan - שימוש ב methods: POST, GET, PEACH, PUT, DELETE - Registration and authentication process - שימוש ב try and catch - ארכיטקטורה של models, controllers, routes - שימוש ב 2 סביבות פיתוח של development and production - שימוש ב joi validation 
+  
+  הערות:
+   - אין צורך להגדיר return ב scope של catch 
+   
+   צד לקוח:
+   שימוש ב toggle button of dark and bright there preference - שימוש ב CSS - שימוש ב global state with context 
+   
+   הערות: - ראיתי שיש יכולת לבצע התחברות אבל מה עם להירשם? מדוע לא יצרת reference לזה ב navbar? 
+   לא ניתן או להתחבר או לבצע שליחה של contact us - לא ניתן לשלוח את הטופס הרשמה - בעת ניסיון לבצע שליחת טופס התחברות לשם הבדיקה האתר מחזיר שגיאה וקורס. - יש גם מספר נקודות שבו אתה פונה ל API URL של הצד שרת. מדוע לא להגדיר מקום אחד. סיכום: - יש ליצור configuration מלא בין הצד לקוח לצד שרת. בהצלחה, אבירן.
