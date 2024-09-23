@@ -1,0 +1,14 @@
+.Header .dark-light-mode-button {
+  border: none;
+  background-color: transparent;
+  height: 32px;
+}
+
+.Header .sighed-in {
+  fill: rgb(223, 227, 242)
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+}

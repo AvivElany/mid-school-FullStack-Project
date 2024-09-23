@@ -1,0 +1,76 @@
+.UpdateNews {
+    font-size: 1rem;
+}
+
+.UpdateNews .formContainer {
+    margin: 20px;
+}
+
+.UpdateNews .formRow {
+    margin: 20px;
+
+}
+.UpdateNews .formRow label {
+    margin-left: 20px;
+}
+
+.UpdateNews .formRow input {
+    margin-left: 20px;
+    width: 350px;
+}
+
+#content {
+    width: 450px;
+    height: 200px;
+}
+
+.UpdateNews button {
+    margin: 10px;
+    padding: 6px;
+    margin: auto;
+    background-color: rgb(13, 114, 230);
+    border-radius: 5px;
+    border: none;
+    color: white;
+
+    &:hover {
+        box-shadow: rgb(153, 153, 153) 0px 0px 3px 3px;
+    }
+}
+
+@media (min-width: 901px) {
+
+    .UpdateNews .formContainer {
+        width: 850px;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid gray;
+        padding: 10px;
+        margin-top: 50px;
+    }
+
+    .UpdateNews label {
+        width: 150px;
+        text-align: left;
+    }
+
+
+    .UpdateNews input {
+        margin: 10px;
+    }
+}
+
+@media (max-width: 900px) {
+
+    .UpdateNews label {
+        margin: 5px;
+    }
+
+    .UpdateNews input {
+        margin: 5px;
+    }
+
+    .UpdateNews button {
+        margin: 10px;
+    }
+}
