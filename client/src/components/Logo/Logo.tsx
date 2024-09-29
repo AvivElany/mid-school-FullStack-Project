@@ -6,10 +6,10 @@ export default function Logo() {
     return (
         <div className='Logo'>
             <Link to={'/'} className="navbar-brand">
-                <FaSchool  size={30} color='red' />
-                <IoSchoolSharp size={30} color='orange' style={{ marginLeft: '-15px', opacity: '0.7' }} />
-                <span style={{ fontWeight: '500', fontFamily: 'monospace', paddingLeft:'5px' }}>Mid School</span>
-                <span style={{fontWeight: '300',fontSize: "0.7em"}}> <FaRegCopyright /></span>
+                <FaSchool  size={30} color='f87575' />
+                <IoSchoolSharp size={30} color='53a2be' style={{ marginLeft: '-17px',marginTop: '-20px', opacity: '0.8' }} />
+                <span style={{ fontWeight: '500', color: '#8fc93a', fontFamily: 'monospace', paddingLeft:'5px' }}>Mid School</span>
+                <span style={{fontWeight: '300',fontSize: "0.6em"}}> <FaRegCopyright /></span>
             </Link>
         </div>
     )
